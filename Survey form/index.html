@@ -1,0 +1,111 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">How Can We Make Waste Management Easier for Everyone?</h1>
+<p id="description">Thank you for participating in our survey on improving waste management. Your feedback is essential in helping us create a cleaner, more efficient, and user-friendly waste management system for everyone. We appreciate your time and valuable insights!</p>
+
+<form id= "survey-form">
+  <div class="input-element">
+    <label id="name-label"> 
+      Name
+    </label>
+    <input placeholder="name" id="name"type="text"required/>
+  </div>
+  <div class="input-element">
+    <label id="email-label"> 
+      E-mail
+    </label>
+    <input placeholder="email" id="email"type="email"required/>
+  </div>
+  <div class="input-element">
+    <label id="number-label"> 
+      Age
+    </label>
+    <input placeholder="age" id= "number" min= "10" max ="100" type="number"required/>
+  </div> 
+  <div class="input-element">
+    <label id="select-label"> 
+      1. How satisfied are you with the current waste management system in your area?
+    </label>
+    <select id="dropdown">
+      <option disabled selected>Please select an option</option> 
+      <option>Very Satisfied</option>
+      <option>Somewhat Satisfied</option>
+      <option>Neutral</option>
+      <option>Somewhat Dissatisfied</option>
+      <option>Very Dissatisfied</option>
+    </select>
+  </div>
+  <div class="input-element">
+    <label id="select-label"> 
+      2. How convenient is it for you to dispose of different types of waste (e.g., general household waste, recyclables, compostable materials)? 
+    </label>
+    <select id="dropdown">
+      <option disabled selected>Please select an option</option> 
+      <option>Very Convienent</option>
+      <option>Somewhat Convenient</option>
+      <option>Neutral</option>
+      <option>Somewhat Inconvenient</option>
+      <option>Very Inconvenient</option>
+    </select>
+  </div>
+  <div class="input-element">
+    <label id="select-label"> 
+       3. Would you be interested in having a more comprehensive curbside collection service that includes recyclables and compostable materials?
+    </label>
+    <div>
+    <label><input type= "radio" name="waste" value="yes"/>Yes</label>
+    </div>
+    <div>
+    <label><input type= "radio" name="waste" value="no"/>No</label>
+    </div>
+    <div>
+    <label><input type= "radio" name="waste" value = "maybe"/>Maybe</label>
+    </div>
+  </div>
+  <div class="input-element">
+    <label id="select-label"> 
+      4. How important is it to you that waste management practices are environmentally friendly?
+    </label>
+    <select id="dropdown">
+      <option disabled selected>Please select an option</option> 
+      <option>Very Important</option>
+      <option>Somewhat Important</option>
+      <option>Neutral</option>
+      <option>Somewhat Unimportant</option>
+      <option>Very Unimportant</option>
+    </select>
+  </div>
+  <div class="input-element">
+    <label>5. Would you be willing to pay a slightly higher fee for improved waste management services?</label>
+    <div>
+    <label><input type= "radio" name="fee" value="yes"/>Yes</label>
+    </div>
+    <div>
+    <label><input type= "radio" name="fee" value="no"/>No</label>
+    </div>
+    <div>
+    <label><input type= "radio" name="fee" value="maybe"/>Maybe</label>
+    </div>
+  </div>
+  <div class="input-element">
+    <label>6. Which of the following improvements would make waste management easier for you? (Select all that apply)</label>
+    <div>
+    <label><input type= "checkbox" name="ideas" value="schedules" />More frequent collection schedules</label>
+    </div>
+    <div>
+    <label><input type= "checkbox" name="ideas" value="size"/>Larger or additional waste bins</label>
+    </div>
+    <div>
+    <label><input type= "checkbox" name="ideas" value = "communication"/>Better communication and education on proper waste sorting</label>
+    </div>
+     <div>
+    <label><input type= "checkbox" name="ideas" value ="incentives"/>Incentives or rewards for proper waste disposal</label>
+    </div>
+  </div>
+  <div class="input-element">
+    <label>Additional Comments</label>
+    <textarea type="text"></textarea>
+  </div>
+  <button type="submit" id="submit">
+    Submit
+    </button>  
+</form>
